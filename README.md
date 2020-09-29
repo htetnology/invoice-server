@@ -8,13 +8,29 @@ As per coursework requirements, the ReceiptClient, ReceiptServer, ReceiptStorage
 ## Screenshots of program 
 1. Connect to server
 
-2. Server menu appears upon successful connection made 
+![01](https://user-images.githubusercontent.com/55747927/94561682-f002d700-0296-11eb-8bb0-3a15a95e5534.png)
 
-3. Create receipt
 
-4. Load receipt
 
-5. Show receipts 
+2. Server menu 
+
+![02](https://user-images.githubusercontent.com/55747927/94561684-f09b6d80-0296-11eb-8d50-086a88268f64.png)
+
+
+
+3. Create receipt (sample)
+
+![04](https://user-images.githubusercontent.com/55747927/94561688-f1cc9a80-0296-11eb-8b7b-4a20d67c4fbc.png)
+
+![05](https://user-images.githubusercontent.com/55747927/94561691-f1cc9a80-0296-11eb-9d43-33773d919860.png)
+
+Note: receipt content is not limited to the one shown above. The user is free to input as much purchase details as needed inside the receipt while following the prompts. 
+
+
+
+4. Show receipts (sample)
+
+![03](https://user-images.githubusercontent.com/55747927/94561685-f1340400-0296-11eb-911c-bf8587062359.png)
 
 
 
