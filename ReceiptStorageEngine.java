@@ -1,5 +1,3 @@
-//Thinzar Htet 180295461
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -34,7 +32,6 @@ public class ReceiptStorageEngine {
     }
 
     private String[] readFile(String filename) {
-        //Q3 answer
         String[] receipt = null;
         try {
             List<String> receiptLines = Files.readAllLines(getFilePath(filename));
@@ -46,7 +43,6 @@ public class ReceiptStorageEngine {
     }
 
     public boolean save(String[] receipt, String filename) {
-        //Q3 answer
         boolean saveReceipt = false;
         try {
             List<String> receiptLines = Arrays.asList(receipt);
@@ -61,7 +57,6 @@ public class ReceiptStorageEngine {
     }
 
     public String[] listFiles() {
-        //Q4 answer
         String[] filesList = null;
         try {
             File invoiceDir = new File(filesLocation);
@@ -74,7 +69,6 @@ public class ReceiptStorageEngine {
     }
 
     private boolean fileExists(String filename) {
-        //Q3 answer
         return Files.exists(getFilePath(filename));
     }
 
