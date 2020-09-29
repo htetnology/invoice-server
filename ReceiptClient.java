@@ -1,5 +1,3 @@
-//Thinzar Htet 180295461
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
@@ -14,7 +12,6 @@ public class ReceiptClient {
     private String host = "127.0.0.1";
 
     public String connect(String host) throws Exception {
-        //Q2 answer 
         socket = new Socket(host, port);
         writer = new PrintWriter(socket.getOutputStream(), true);
         reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
