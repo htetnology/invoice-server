@@ -1,5 +1,3 @@
-//Thinzar Htet 180295461
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -32,7 +30,6 @@ public class ReceiptServer {
     }
 
     private void startServer() throws IOException {
-        //Q1 answer 
         serverSocket = new ServerSocket(portNumber);
         clientSocket = serverSocket.accept();
         out = new PrintWriter(clientSocket.getOutputStream(), true);
